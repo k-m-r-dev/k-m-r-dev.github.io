@@ -1,37 +1,16 @@
-# 👨‍💻 Khandker Mahmudur Rahman - Personal Portfolio
+# React + Vite
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This repository contains the source code for my personal portfolio website, hosted via GitHub Pages. It serves as a digital resume, showcasing my experience as a **Principal Software Engineer**, my technical skills in Mobile & Backend development, and my professional projects.
+Currently, two official plugins are available:
 
-## 🚀 Live Demo
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-**[Click here to view the website](https://k-m-r-dev.github.io)**
+## React Compiler
 
-## 📄 Overview
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-This is a static, single-page responsive website designed to provide a clean and professional overview of my career.
+## Expanding the ESLint configuration
 
-**Key Sections:**
-*   **Professional Summary:** Overview of my leadership and engineering philosophy.
-*   **Career Highlights:** Key achievements in HIPAA compliance, cloud efficiency, and CI/CD.
-*   **Technical Expertise:** Skills in Android, iOS, Flutter, Python, and Cloud services.
-*   **Work History:** Detailed timeline of my roles at Augmedix, BJIT, and BroTecs.
-*   **Hobbies:** A look into my personal interests (Motorcycles, Gaming, Culinary Arts).
-
-## 🛠️ Tech Stack
-
-*   **HTML5:** Semantic structure.
-*   **CSS3:** Custom styling with CSS Variables for color management and Flexbox/Grid for layout.
-*   **Font Awesome:** Iconography.
-*   **Google Fonts:** Typography (Poppins).
-
-## 📂 Project Structure
-
-```text
-/
-├── index.html      # Main HTML file containing structure and styles
-├── profile.jpg     # Profile picture used in the Hero section
-└── README.md       # Project documentation
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
