@@ -14,6 +14,15 @@ function App() {
           <a href="#projects">Projects</a>
           <a href="#hobbies">Interests</a>
         </div>
+        <a 
+          href="https://github.com/k-m-r-dev/k-m-r-dev.github.io" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="github-link"
+          aria-label="View source on GitHub"
+        >
+          <i className="fab fa-github"></i> View Source
+        </a>
       </nav>
 
       {/* Hero Section */}

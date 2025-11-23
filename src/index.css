@@ -39,6 +39,27 @@ nav {
 .nav-links { display: flex; gap: 1.5rem; }
 .nav-links a { font-weight: 500; color: var(--secondary); font-size: 0.9rem; transition: color 0.3s; }
 .nav-links a:hover { color: var(--primary); }
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: var(--secondary);
+  font-size: 0.9rem;
+  transition: color 0.3s;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  background: var(--accent);
+}
+.github-link:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+  background: var(--white);
+}
+.github-link i {
+  font-size: 1.1rem;
+}
 
 /* Hero */
 .hero {
@@ -109,6 +130,10 @@ footer { background: var(--secondary); color: var(--white); text-align: center; 
 
 @media (max-width: 768px) {
   .nav-links { display: none; }
+  .github-link { 
+    font-size: 0.8rem; 
+    padding: 0.4rem 0.8rem;
+  }
   .hero { text-align: center; padding-top: 2rem; }
   .contact-info { justify-content: center; }
   .job-header { flex-direction: column; }
