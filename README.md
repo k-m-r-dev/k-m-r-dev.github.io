@@ -1,16 +1,33 @@
-# React + Vite
+# 👨‍💻 Khandker Mahmudur Rahman - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B33030?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Currently, two official plugins are available:
+This repository contains the **React** source code for my personal portfolio website. The site acts as a digital resume, showcasing my experience as a **Principal Software Engineer**, technical expertise in Mobile (Android/iOS/Flutter) & Backend, and professional highlights.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+**[https://k-m-r-dev.github.io](https://k-m-r-dev.github.io)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+*   **Framework:** [React.js](https://react.dev/)
+*   **Build Tool:** [Vite](https://vitejs.dev/)
+*   **Styling:** Custom CSS3 (Responsive, Flexbox/Grid, CSS Variables)
+*   **Icons:** Font Awesome 6
+*   **Deployment:** GitHub Pages (via `gh-pages` package)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+/
+├── public/
+│   └── profile.jpg     # Static assets (Profile picture/Favicon)
+├── src/
+│   ├── App.jsx         # Main component containing all sections
+│   ├── main.jsx        # React entry point
+│   └── index.css       # Global styles
+├── package.json        # Dependencies and build scripts
+├── vite.config.js      # Vite configuration
+└── README.md           # Documentation
