@@ -4,7 +4,7 @@
 ![Vite](https://img.shields.io/badge/Vite-B33030?style=for-the-badge&logo=vite&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-This repository contains the **React** source code for my personal portfolio website. The site acts as a digital resume, showcasing my experience as a **Principal Software Engineer**, technical expertise in Mobile (Android/iOS/Flutter) & Backend, and professional highlights.
+This repository contains the **React** source code for my personal portfolio website. The site acts as a digital resume, showcasing my experience as a **Staff Platform Engineer**, technical expertise in Full Stack (Mobile + Backend + AI Tooling) across Android, iOS, React Native, Flutter, Node.js & Python, and professional highlights.
 
 ## 🚀 Live Demo
 

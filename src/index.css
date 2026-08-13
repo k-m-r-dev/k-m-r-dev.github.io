@@ -103,7 +103,7 @@ section { padding: 4rem 5%; margin-bottom: 2rem; }
 .tags { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .tag { background: #e0e7ff; color: var(--primary); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 500; }
 
-.timeline-item { background: var(--white); padding: 2rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-left: 4px solid var(--primary); max-width: 1000px; margin: 0 auto; }
+.timeline-item { background: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-left: 4px solid var(--primary); max-width: 1000px; margin: 0 auto 1.5rem; }
 .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.5rem; }
 .job-title { font-size: 1.25rem; font-weight: 700; color: var(--secondary); }
 .company { color: var(--primary); font-weight: 600; font-size: 1.1rem; }
